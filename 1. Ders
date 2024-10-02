@@ -1,0 +1,83 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Mail;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _01C__MainSubjects
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Console.WriteLine("Merhaba dünya");
+
+            #region Yazdırma Komutları
+            //Console.Write("*****Yemek kategorileri*****");
+            //Console.WriteLine();
+            //Console.WriteLine("1-Çorbalar");
+            //Console.WriteLine("2-Ana yemekler");
+            //Console.WriteLine("3-Soğuk başlangıçlar");
+            //Console.WriteLine("4-Salatalar");
+            //Console.WriteLine("5-Tatlılar");
+            //Console.WriteLine("6-İçecekler");
+            //Console.WriteLine();
+            //Console.Write("*****Yemek kategorileri*****");
+
+            #region String Değişkenler
+            //string
+            //string name;
+            //name = "İrem";
+            //Console.Write(name);
+            //string customerName;
+            //string customerSurnmae;
+            // string customeremail, district, city;
+            //customerName = "irem";
+            //customerSurnmae = "tüfekçi";
+            //Console.WriteLine("***Rezervasyon Kartı***");
+            //Console.WriteLine("---------------");
+            //Console.WriteLine("Müşteri:" + customerName + (" ")+customerSurnmae);
+            //customerName = "ayşe";
+            //Console.WriteLine("----------------");
+            //Console.WriteLine("Müşteri:"+customerName);
+            #region ınt değişkenler
+
+            int hamburger = 300;
+            int coke = 35;
+            int water = 10;
+            int fries = 50;
+          
+            Console.WriteLine("****Menü*****");
+            Console.WriteLine("Hamburger"+hamburger+"TL");
+            Console.WriteLine("Coke" + coke + "TL");
+            Console.WriteLine("Water" + water + "TL");
+            Console.WriteLine("Fries" + fries + "TL");
+            Console.WriteLine();
+            Console.WriteLine("*****Menü*****");
+            int hamburgerprice;
+            int cokeprice;
+            int waterprice;
+            int friesprice;
+
+            int totalprice = 0;
+
+            hamburgerprice = 3;
+            cokeprice= 3;
+            waterprice= 3;
+            friesprice = 1;
+            totalprice=(hamburger*hamburgerprice)+(coke*cokeprice)+(water*waterprice)+(fries*friesprice);
+            Console.WriteLine();
+            Console.WriteLine("Toplam ücret" + totalprice);
+
+
+            #endregion
+
+
+
+
+            Console.Read();
+
+        }
+    }
+}
