@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _02c_
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //double number;
+            //number = 4.85;
+            //Console.WriteLine(number);
+
+
+
+            //Console.WriteLine("****Fiyatlar*****");
+            //Console.WriteLine();
+            //double appleprice, orangeprice, potato;
+            //appleprice = 14.85;
+            //orangeprice = 20.95;
+            //potato = 9.74;
+
+            //Console.WriteLine("Elma:" + appleprice);
+            //Console.WriteLine("Portakal:" + orangeprice);
+            //Console.WriteLine("Patates:" + potato);
+
+            //double applegram, orangegram, potatogram;
+            //applegram = 1.245;
+            //orangegram = 2.650;
+            //potatogram = 4.859;
+            //double total=(appleprice*applegram)+(orangeprice*orangegram)+(potato*potatogram);
+            //Console.WriteLine("Toplam:"+total);
+
+            //char symbol;
+            //symbol = 'a';
+
+
+
+
+            //Console.WriteLine("***CSHarp yolcu bilgisi****");
+            //String customername, customersurname, city;
+            //Console.Write("Yolcu adı:");
+            //customername=Console.ReadLine();
+            //Console.Write("Soyadı:");
+            //customersurname=Console.ReadLine();
+            //Console.Write("Şehir:");
+            //city=Console.ReadLine();
+
+
+            //int shoeprice, computerprice, charprice;
+            //shoeprice = 1000;
+            //computerprice = 20000;
+            //charprice = 5000;
+            //int shoecount,computercount,charcount; ;
+            //Console.WriteLine("Lütfen aldığınız ayakkabı miktar girin:");
+            //shoecount=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Lütfen aldığınız pc miktarı girin:");
+            //computercount = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Lütfen aldığınız sandalye miktarını girin:");
+            //charcount=int.Parse(Console.ReadLine());
+            //int totalprice = shoecount * shoeprice + computercount * computerprice + charcount * charprice;
+            //Console.WriteLine();
+            //Console.WriteLine("Toplam Ödeme:" + totalprice);
+
+
+
+            
+            Console.Read();
+
+
+
+        }
+    }
+}
