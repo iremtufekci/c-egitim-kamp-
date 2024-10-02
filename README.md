@@ -1,1 +1,1 @@
-# c-egitim-kamp-
+# c# egitim kampı
